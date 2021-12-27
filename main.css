@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(233, 19, 19);
+    
+}
+
+.padded-container {
+    border: 4px solid rgb(255, 250, 250);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(145, 123, 123, 0.19);
+    margin: auto;
+    padding: 2.5rem;
+}
+
+.header {
+    text-align: center; 
+}
+
+.h1 {
+    text-align: center; color: rgb(8, 6, 6);
+}
+.padded-container2 {
+    border: 2px solid rgb(255, 250, 250);
+    box-shadow: 0 4px 8px 0 rgba(0. 0. 0. 0.2),
+    0 6px 20px 0 rgba(145, 123, 123, 0.19);
+}
+
+.padded-container3 {
+    border: 2px solid rgb(255, 250, 250);
+    box-shadow: 0 4px 8px 0 rgba(0. 0. 0. 0.2),
+    0 6px 20px 0 rgba(145, 123, 123, 0.19);
+}
+
+form input, form button {
+    width: 50%;
+    min-width: 300;
+    box-sizing: border-box;
+    margin: .75rem 0;
+    padding: .25rem;
+    line-height: 1rem;
+    font-size: 1em;
+    border: solid 1px black;
+    border-radius: 1px;
+}
+
+form button {
+    color: rgb(233, 19, 19);
+    background-color: rgb(10, 9, 9);
+}
+
+header a:hover, form button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+footer img {
+    margin: 0 .5rem;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
